@@ -1,8 +1,12 @@
 #!/bin/bash
 
+# Añadir el repositorio de jdownloader e instalar.
+# TO DO: Añadir una condicional para ver si ya existe el repositorio.
 add-apt-repository ppa:jd-team/jdownloader
 apt-get update
 apt-get install jdownloader
+
+apt-get install mutt urlview irssi
 
 # Instalación de Mendeley desktop.
 # Hacer una condicional para descargar la versión adecuada de Mendeley de acuerdo a la arquitectura del sistema.
